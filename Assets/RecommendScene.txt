@@ -1,0 +1,17 @@
+Liquor Store
+Book Store
+Electronic Store
+Book Store_1
+Volleyball Court
+Boxing Ring
+Classroom
+Classroom2
+Pub
+Bottle Stall
+Stationery
+Household Object
+Mop
+Tennis Court
+Architecture Room
+Toilet
+Toilet_2

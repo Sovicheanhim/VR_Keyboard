@@ -1,0 +1,10 @@
+Whisky
+Red Wine
+Champagne
+Floor
+Bulb
+Trash Bin
+Human
+Ceiling
+Air Vent
+Table

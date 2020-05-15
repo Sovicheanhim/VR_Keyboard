@@ -1,0 +1,206 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &962406471389167258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962406471389167256}
+  - component: {fileID: 962406471389167257}
+  - component: {fileID: 962406471389167255}
+  - component: {fileID: 962406471389167253}
+  - component: {fileID: 962406471389167254}
+  - component: {fileID: 962406471389167252}
+  - component: {fileID: 962406471389167251}
+  m_Layer: 0
+  m_Name: Script Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962406471389167256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962406471389167258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19, y: -32.7, z: -194.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &962406471389167257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962406471389167258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55c2b02dc7157a945ba2a5e4e1e445a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serviceUrl: https://stream.watsonplatform.net/speech-to-text/api
+  Speech: 
+  _iamApikey: mGU7MC1WPjk9KDgekKS4QC6LpkVYxp7Ipsresd2UM-Aa
+  _recognizeModel: 
+--- !u!114 &962406471389167255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962406471389167258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9618ae78bdfa59a47a29733d8b53520e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  i: 0
+  Word:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  loading: {fileID: 0}
+--- !u!114 &962406471389167253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962406471389167258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a253fc53cb96c1646ad1a73281e6fc87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VocabularyCardCanvas: {fileID: 0}
+  WordText: {fileID: 0}
+  SpeechText: {fileID: 0}
+  StatusText: {fileID: 0}
+  VocabularyImage: {fileID: 0}
+  audio: {fileID: 0}
+  ControlBtn: {fileID: 962406471389167254}
+  VocabData: {fileID: 962406471389167255}
+  understood: {fileID: 962406471389167251}
+  i: 0
+  WordID: 0
+--- !u!114 &962406471389167254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962406471389167258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cb3920b752155b4da8aa5e797783905, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VocabularyBtnCollection: {fileID: 0}
+  ControlBtnCollection: {fileID: 0}
+  VocabularyCard: {fileID: 0}
+  Unbookmark: {fileID: 0}
+  Bookmarks: {fileID: 0}
+  btnBookmark: {fileID: 0}
+  CurrentVocabularyBtnClicked: {fileID: 0}
+  CurrentVocabularyBtnClickedName: 
+  Word: []
+--- !u!114 &962406471389167252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962406471389167258}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f911dc2afd90054da5eba895a00bf90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correct: {fileID: 2800000, guid: 09d280d3cc1beec40906f4b7605e76fb, type: 3}
+  loading: {fileID: 0}
+  und:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+--- !u!114 &962406471389167251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962406471389167258}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f16dedab8f4c94083819285be45ab7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonClicked: {fileID: 962406471389167254}
+  Arr_word: {fileID: 962406471389167255}
+  Word: {fileID: 0}
+  wordlist: []
+  und_percentage: 0
+  correct: {fileID: 2800000, guid: 09d280d3cc1beec40906f4b7605e76fb, type: 3}
